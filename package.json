@@ -1,19 +1,26 @@
 {
-	"name": "template",
+	"name": "bar-salamanca-3",
 	"private": true,
 	"version": "1.0.0",
 	"type": "commonjs",
-	"description": "Short description",
-	"keywords": [],
+	"description": "Bar Salamanca 3 website",
+	"keywords": [
+		"bar",
+		"restaurant",
+		"salamanca",
+		"salamanca3",
+		"food",
+		"homemade"
+	],
 	"author": {
 		"name": "Kuuro",
 		"email": "contact@kuuro.dev",
 		"url": "https://kuuro.dev"
 	},
-	"homepage": "https://<homepage>",
+	"homepage": "https://barsalamanca3.site",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jmhs11/<repository>.git"
+		"url": "https://github.com/jmhs11/bar-salamanca-3.git"
 	},
 	"scripts": {
 		"dev": "vite",
