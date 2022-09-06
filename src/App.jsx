@@ -1,10 +1,16 @@
-import Button from './components/Button';
+import { Route, Routes } from 'react-router-dom';
+import Carta from './pages/Carta';
+import Error404 from './pages/Error404';
+import Home from './pages/Home';
 
 const App = () => {
 	return (
 		<>
-			<h1 className='text-3xl font-bold underline'>Hello world!</h1>
-			<Button text='Button' handleClick={() => console.log('clicked')} />
+			<Routes>
+				<Route path='/' element={<Home />} />
+				<Route path='/carta' element={<Carta />} />
+				<Route path='*' element={<Error404 />} />
+			</Routes>
 		</>
 	);
 };
